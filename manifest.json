@@ -1,0 +1,13 @@
+{
+  "name": "Zoomer",
+  "description": "OP helper tool",
+  "version": "0.07",
+  "permissions":["contextMenus", "tabs", "activeTab", "<all_urls>", "declarativeContent"],
+  "icons": { "16": "OP16.png",
+             "48": "OP48.png",
+            "128": "OP128.png" },
+  "background": {
+    "scripts": ["sample.js"]
+  },
+  "manifest_version": 2
+}
